@@ -23,14 +23,73 @@ Accessors and Mutators for all attributes
 */
 
 public class Car {
-  // Constructor
   
-  private String ID;
+  private String id;
   private int mileage;
   private int mpg;
- 
   private double cost;
   private double askingPrice;
-  // boolean value
+  private double salePrice;
+  private boolean isSold;
+
+//constructors  
+public Car() {}
+public Car(String id, int mileage, int mpg, double cost, double askingPrice) {
+  this.id=id;
+  this.mileage=mileage;
+  this.mpg=mpg;
+  this.cost=cost;
+  this.askingPrice=askingPrice;
+}
+public String getid() {
+  return this.id;
+}
+public int getmileage() {
+  return this.mileage;
+}
+public int getmpg() {
+  return this.mpg;
+}
+public double getcost() {
+  return this.cost;
+}
+public double getaskingPrice() {
+  return this.askingPrice;
+}
+public double getsalePrice() {
+  return this.salePrice;
+}
+public boolean isSold() {
+  return this.isSold;
+}
+
+public void setid(String id) {
+this.id=id;
+}
+public void setmileage(int mileage) {
+this.mileage=mileage;
+}
+public void setmpg(int mpg) {
+this.mpg=mpg;
+}
+public void setcost(double cost) {
+this.cost=cost;
+}
+public void setaskingPrice(double askingPrice) {
+this.askingPrice=askingPrice;
+}
+public void setsalePrice (double salePrice) {
+this.salePrice=salePrice;
+}
+public void setisSold(boolean isSold) {
+this.isSold=isSold;
+}
+
+
+
+  
+  
+ 
+  
   
 }
